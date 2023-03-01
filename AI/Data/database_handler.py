@@ -4,9 +4,9 @@ import sys
 import traceback
 
 # Function to get the data from the database, filter it and return the filtered data
-def get_data():
+def get_data(dbPath):
     # Connect to the database
-    connection = sqlite3.connect('datasetNY.db')
+    connection = sqlite3.connect(dbPath)
 
     # Get the data from the database
     raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes')
