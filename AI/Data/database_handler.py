@@ -1,10 +1,10 @@
 import sqlite3
 
-conn = sqlite3.connect('database.db')
+connection = sqlite3.connect('datasetNY.db')
 
 print('Opened database successfully')
 
-result = conn.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes')
+result = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes')
 count = 0
 
 for row in result:
@@ -14,4 +14,4 @@ for row in result:
 
 print('Number of accidents in the area: ', count)
 
-conn.close()
+connection.close()
