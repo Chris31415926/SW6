@@ -12,7 +12,7 @@ def get_data():
     try:
         for row in raw_data:
             if row[4] is not None and row[5] is not None:
-                if float(row[4]) > 40.4 and float(row[4]) < 41 and float(row[5]) > -74.3 and float(row[5]) < -73.5:
+                if 40.4 < float(row[4]) < 41 and -74.3 < float(row[5]) < -73.5:
                     filtered_data.append(row)
     except sqlite3.Error as er:
         print('SQLite error: %s' % (' '.join(er.args)))
@@ -23,3 +23,6 @@ def get_data():
 
     connection.close()
     return filtered_data
+
+filtered = get_data()
+print(len(filtered))
