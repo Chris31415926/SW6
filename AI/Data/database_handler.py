@@ -11,7 +11,7 @@ def get_all_data(dbPath):
     
     # Get the data from the database
     try:
-        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes')
+        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes').fetchall()
 
     # If there is an error, print the error and traceback                
     except sqlite3.Error as er:
