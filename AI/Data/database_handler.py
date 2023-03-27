@@ -13,7 +13,7 @@ def get_all_data(dbPath):
     
     # Get the data from the database
     try:
-        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes').fetchall()
+        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes ORDER BY RANDOM()').fetchall()
 
     # If there is an error, print the error and traceback                
     except sqlite3.Error as er:
@@ -36,7 +36,7 @@ def get_all_data_datetime_converted(dbPath):
     
     # Get the data from the database
     try:
-        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes').fetchall()
+        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes ORDER BY RANDOM()').fetchall()
 
     # If there is an error, print the error and traceback                
     except sqlite3.Error as er:
@@ -77,7 +77,7 @@ def get_n_data_datetime_converted(dbPath, amount):
     
     # Get the data from the database
     try:
-        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes').fetchmany(amount)
+        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes ORDER BY RANDOM()').fetchmany(amount)
 
     # If there is an error, print the error and traceback                
     except sqlite3.Error as er:
@@ -117,7 +117,7 @@ def get_n_data(dbPath, amount):
 
     # Get the data from the database
     try:
-        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes').fetchmany(amount)
+        raw_data = connection.execute('SELECT * FROM Motor_Vehicle_Collisions_Crashes ORDER BY RANDOM()').fetchmany(amount)
 
     # If there is an error, print the error and traceback                
     except sqlite3.Error as er:
