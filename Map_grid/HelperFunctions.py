@@ -65,8 +65,8 @@ def FindGridCorner(gridSize, x, y):
 
     return [x1, x2], [y1, y2]
 
-def FindPoints(index):
-    x,y = CalculateGrid(grid_number.value)
-    box_x, box_y = FindGridCorner(grid_number.value, x[index], y[index])
-    found_points_x, found_points_y = FindSelectedPoints(box_x[0], box_y[0], box_x[1], box_y[1], dataset_x, dataset_y)
-    return found_points_x, found_points_y
+webmercator_to_lonlat = Transformer.from_crs("EPSG:3857", "EPSG:4326", always_xy=True)
+# Helper function for converting webmercator into GPS coordinates
+def ConvertWebmercator(lon, lat):
+    x, y = webmercator_to_lonlat.transform(lon, lat)
+    return x, y
