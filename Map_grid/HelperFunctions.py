@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 31 09:54:59 2023
-
-@author: Torbjoern
-"""
-grid_lower_lat, grid_lower_lon = 40.540000, -74.1500000
-grid_upper_lat, grid_upper_lon = 40.910000, -73.700000
+from pyproj import Transformer
+import constant
 
 # function for calculating the width and height of the squares in the grid
 # Output: width and height of the square
@@ -20,15 +14,15 @@ def FindSize(grid_size):
 # Function for calculating the centerpoints of the squares in the grid
 # Output: Two arrays of the x and y coordinates for the center of the squares
 def CalculateGrid(grid_size):
-    dif_lng = grid_upper_lon - grid_lower_lon
-    dif_lat = grid_upper_lat - grid_lower_lat
+    dif_lng = constant.grid_upper_lon - constant.grid_lower_lon
+    dif_lat = constant.grid_upper_lat - constant.grid_lower_lat
     
     latitudes = []
     longitudes = []
     for x in range (1, grid_size+1):
-        point2 = grid_lower_lat + (2*x-1)*(dif_lat/(2*grid_size))
+        point2 = constant.grid_lower_lat + (2*x-1)*(dif_lat/(2*grid_size))
         for i in range(1, grid_size+1):
-            point1 = grid_lower_lon + (2*i-1)*(dif_lng/(2*grid_size))
+            point1 = constant.grid_lower_lon + (2*i-1)*(dif_lng/(2*grid_size))
             longitudes.append(point1)
             latitudes.append(point2)
         
@@ -54,8 +48,8 @@ def FindSelectedPoints(lower_x, lower_y, upper_x, upper_y, points_x, points_y):
 # Helper function for finding the corners of a grid square
 # Output: arrays containing x and y coordinates for the corners
 def FindGridCorner(gridSize, x, y):
-    dif_lng = grid_upper_lon - grid_lower_lon
-    dif_lat = grid_upper_lat - grid_lower_lat
+    dif_lng = constant.grid_upper_lon - constant.grid_lower_lon
+    dif_lat = constant.grid_upper_lat - constant.grid_lower_lat
 
     x1 = x - (dif_lng/(2*gridSize))
     y1 = y - (dif_lat/(2*gridSize))
