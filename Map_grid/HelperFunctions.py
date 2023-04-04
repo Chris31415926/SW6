@@ -1,4 +1,5 @@
 from pyproj import Transformer
+from AI.Data.database_handler import get_all_data, get_n_data
 import constant
 
 # function for calculating the width and height of the squares in the grid
@@ -64,3 +65,14 @@ webmercator_to_lonlat = Transformer.from_crs("EPSG:3857", "EPSG:4326", always_xy
 def ConvertWebmercator(lon, lat):
     x, y = webmercator_to_lonlat.transform(lon, lat)
     return x, y
+
+# Helper function for retrieving certain amount of data from the dataset
+# Output: Two arrays for x and y coordinates
+def RetrieveData(data_amount):
+    dataset_x = []
+    dataset_y = []
+    dataset = get_n_data('../AI/Data/datasetNY.db', data_amount)
+    for i in range(len(dataset)):
+        dataset_y.append(float(dataset[i][2]))
+        dataset_x.append(float(dataset[i][3]))
+    return dataset_x, dataset_y
