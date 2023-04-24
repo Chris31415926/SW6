@@ -76,3 +76,17 @@ def RetrieveData(data_amount):
         dataset_y.append(float(dataset[i][2]))
         dataset_x.append(float(dataset[i][3]))
     return dataset_x, dataset_y
+
+# Helper function to find a gridbox given the grid size, a longitude and a latitude
+# Output: An array containing the index and midpoint of a gridbox
+def BoxLocator(gridSize, given_lon, given_lat):
+    midpoints_x, midpoints_y = CalculateGrid(gridSize)
+    
+    for i in range(gridSize**2):
+        x, y = FindGridCorner(gridSize, midpoints_x[i], midpoints_y[i])
+        
+        if((x[0] < given_lon < x[1]) and (y[0] < given_lat < y[1])):
+            return i, midpoints_x[i], midpoints_y[i]
+    
+#     If the given input is not within the grid region, the following is returned to be used as checks outside the function
+    return i+1, 0, 0
