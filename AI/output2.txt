@@ -1,684 +1,112 @@
-Grid size: 5
-Correct Tolerance 2
+Grid size: 10
+Correct Tolerance 5
+Chunk Amount: 25222
 ------------------------------------------
-Main correct: 17285  size: 80089  main correct/size: 0.21582239758268926
-Also correct: 13571  size: 80089  also correct/size: 0.16944898800084907
-Test Error: Accuracy: 38.5%, Avg loss: 2.423836
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 2.3565587997436523
-Predicted: [7, 11]Actual: 1 False 2.458890199661255
-Predicted: [7, 11]Actual: 2 False 2.39703106880188
-Predicted: [7, 11]Actual: 3 False 2.3557910919189453
-Predicted: [7, 11]Actual: 4 False 2.449592351913452
-Predicted: [7, 11]Actual: 5 False 2.4375648498535156
-Predicted: [7, 11]Actual: 6 False 2.3928918838500977
-Predicted: [7, 11]Actual: 7 True  2.4169397354125977
-Predicted: [7, 11]Actual: 8 False 2.459803581237793
-Predicted: [7, 11]Actual: 9 False 2.3838603496551514
-Predicted: [7, 11]Actual: 10False 2.3071937561035156
-Predicted: [7, 11]Actual: 11True  2.388248920440674
-Predicted: [7, 11]Actual: 12False 2.436149835586548
-Predicted: [7, 11]Actual: 13False 2.339923620223999
-Predicted: [7, 11]Actual: 14False 2.3405749797821045
-Predicted: [7, 11]Actual: 15False 2.2995810508728027
-Predicted: [7, 11]Actual: 16False 2.4436264038085938
-Predicted: [7, 11]Actual: 17False 2.4908032417297363
-Predicted: [7, 11]Actual: 18False 2.465099334716797
-Predicted: [7, 11]Actual: 19False 2.2493414878845215
-Predicted: [7, 11]Actual: 20False 2.48052978515625
-Predicted: [7, 11]Actual: 21False 2.5434951782226562
-Predicted: [7, 11]Actual: 22False 2.4072890281677246
-Predicted: [7, 11]Actual: 23False 2.348236322402954
-Predicted: [7, 11]Actual: 24False 2.410813331604004
-------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 17103  size: 80089  main correct/size: 0.21354992570765025
-Also correct: 13940  size: 80089  also correct/size: 0.17405636229694466
-Test Error: Accuracy: 38.8%, Avg loss: 2.374115
+Main correct: 7845  size: 10089  main correct/size: 0.7775795420755278
+Also correct: 1219  size: 10089  also correct/size: 0.1208246605213599
+Test Error: Accuracy: 89.8%, Avg loss: 0.956270
 ------------------------------------------
 Edge cases:
-Predicted: [7, 11]Actual: 0 False 2.6197779178619385
-Predicted: [7, 11]Actual: 1 False 2.723281145095825
-Predicted: [7, 11]Actual: 2 False 2.6358234882354736
-Predicted: [7, 11]Actual: 3 False 2.621095657348633
-Predicted: [7, 11]Actual: 4 False 2.7419557571411133
-Predicted: [7, 11]Actual: 5 False 2.682170867919922
-Predicted: [7, 11]Actual: 6 False 2.6758549213409424
-Predicted: [7, 11]Actual: 7 True  2.837022066116333
-Predicted: [7, 11]Actual: 8 False 2.703171730041504
-Predicted: [7, 11]Actual: 9 False 2.667287826538086
-Predicted: [7, 11]Actual: 10False 2.586632251739502
-Predicted: [7, 11]Actual: 11True  2.73231840133667
-Predicted: [7, 11]Actual: 12False 2.7280306816101074
-Predicted: [7, 11]Actual: 13False 2.604769468307495
-Predicted: [7, 11]Actual: 14False 2.56557297706604
-Predicted: [7, 11]Actual: 15False 2.5472335815429688
-Predicted: [7, 11]Actual: 16False 2.7102468013763428
-Predicted: [7, 11]Actual: 17False 2.792168140411377
-Predicted: [7, 11]Actual: 18False 2.7221908569335938
-Predicted: [7, 11]Actual: 19False 2.481898307800293
-Predicted: [7, 11]Actual: 20False 2.760136127471924
-Predicted: [7, 11]Actual: 21False 2.825392723083496
-Predicted: [7, 11]Actual: 22False 2.662071704864502
-Predicted: [7, 11]Actual: 23False 2.58333420753479
-Predicted: [7, 11]Actual: 24False 2.659864902496338
+Predicted: [54, 34]Actual: 0 False 5.795344829559326
+Predicted: [64, 43]Actual: 1 False 6.681941986083984
+Predicted: [64, 54]Actual: 2 False 5.923645973205566
+Predicted: [75, 54]Actual: 3 False 5.739632606506348
+Predicted: [54, 75]Actual: 4 False 5.816201210021973
+Predicted: [54, 14]Actual: 5 False 5.106933116912842
+Predicted: [64, 75]Actual: 6 False 5.667848110198975
+Predicted: [64, 54]Actual: 7 False 5.661872386932373
+Predicted: [74, 75]Actual: 8 False 6.224496364593506
+Predicted: [23, 53]Actual: 9 False 6.213411808013916
+Predicted: [64, 23]Actual: 10False 5.824204444885254
+Predicted: [43, 54]Actual: 11False 5.027154922485352
+Predicted: [33, 54]Actual: 12False 6.002514362335205
+Predicted: [64, 74]Actual: 13False 7.956146717071533
+Predicted: [33, 74]Actual: 14False 10.287324905395508
+Predicted: [64, 47]Actual: 15False 5.984773635864258
+Predicted: [54, 75]Actual: 16False 5.6385087966918945
+Predicted: [75, 54]Actual: 17False 5.515868663787842
+Predicted: [64, 47]Actual: 18False 5.478660583496094
+Predicted: [24, 54]Actual: 19False 5.669293403625488
+Predicted: [33, 47]Actual: 20False 6.826558589935303
+Predicted: [64, 33]Actual: 21False 5.796838283538818
+Predicted: [64, 47]Actual: 22False 5.575791358947754
+Predicted: [23]   Actual: 23True  59.37314987182617
+Predicted: [24]   Actual: 24True  54.25748062133789
+Predicted: [24, 64]Actual: 25False 7.662668704986572
+Predicted: [64, 75]Actual: 26False 6.0427422523498535
+Predicted: [23, 64]Actual: 27False 6.312526226043701
+Predicted: [64, 23]Actual: 28False 6.867179870605469
+Predicted: [64, 56]Actual: 29False 6.039118766784668
+Predicted: [34, 54]Actual: 30False 5.735576152801514
+Predicted: [33, 64]Actual: 31False 6.266123294830322
+Predicted: [54, 75]Actual: 32False 5.627806186676025
+Predicted: [33]   Actual: 33True  24.139652252197266
+Predicted: [34]   Actual: 34True  107.63314056396484
+Predicted: [35]   Actual: 35True  85.98160552978516
+Predicted: [24]   Actual: 36False 8.04123592376709
+Predicted: [64, 75]Actual: 37False 5.972379684448242
+Predicted: [54, 64]Actual: 38False 5.43184232711792
+Predicted: [54, 75]Actual: 39False 5.572385787963867
+Predicted: [74, 64]Actual: 40False 6.722227573394775
+Predicted: [64, 54]Actual: 41False 6.265892505645752
+Predicted: [64, 47]Actual: 42False 6.372439384460449
+Predicted: [43]   Actual: 43True  114.17485809326172
+Predicted: [44]   Actual: 44True  88.80705261230469
+Predicted: [33, 54]Actual: 45False 6.63677978515625
+Predicted: [64, 75]Actual: 46False 5.420681476593018
+Predicted: [33, 47]Actual: 47True  11.140582084655762
+Predicted: [64, 47]Actual: 48False 5.729148864746094
+Predicted: [33, 54]Actual: 49False 6.062882900238037
+Predicted: [64, 75]Actual: 50False 6.271666049957275
+Predicted: [43]   Actual: 51False 8.00102710723877
+Predicted: [64, 75]Actual: 52False 5.663486480712891
+Predicted: [53]   Actual: 53True  118.2690200805664
+Predicted: [33]   Actual: 54False 13.536116600036621
+Predicted: [64, 47]Actual: 55False 7.868720531463623
+Predicted: [33, 23]Actual: 56False 11.215547561645508
+Predicted: [64, 75]Actual: 57False 6.000749111175537
+Predicted: [64, 54]Actual: 58False 5.888368129730225
+Predicted: [33, 54]Actual: 59False 5.711544036865234
+Predicted: [33, 54]Actual: 60False 6.303624153137207
+Predicted: [33, 54]Actual: 61False 6.247834205627441
+Predicted: [64, 43]Actual: 62False 6.1194233894348145
+Predicted: [33, 64]Actual: 63False 8.167863845825195
+Predicted: [64]   Actual: 64True  15.939144134521484
+Predicted: [54, 56]Actual: 65False 5.495999336242676
+Predicted: [33, 54]Actual: 66False 6.090540409088135
+Predicted: [64, 54]Actual: 67False 5.509039878845215
+Predicted: [54, 34]Actual: 68False 5.98110294342041
+Predicted: [64, 75]Actual: 69False 5.271922588348389
+Predicted: [54, 75]Actual: 70False 5.7468342781066895
+Predicted: [64, 54]Actual: 71False 5.698589324951172
+Predicted: [74, 64]Actual: 72False 6.0564799308776855
+Predicted: [33, 54]Actual: 73False 6.116695404052734
+Predicted: [74]   Actual: 74True  47.00908660888672
+Predicted: [64, 33]Actual: 75False 10.182642936706543
+Predicted: [64, 75]Actual: 76False 6.005323886871338
+Predicted: [43, 64]Actual: 77False 7.002501487731934
+Predicted: [54, 64]Actual: 78False 5.677921772003174
+Predicted: [64, 34]Actual: 79False 6.2248735427856445
+Predicted: [33, 64]Actual: 80False 6.615050792694092
+Predicted: [35, 33]Actual: 81False 6.932398796081543
+Predicted: [75, 64]Actual: 82False 5.509908199310303
+Predicted: [64, 75]Actual: 83False 5.5553765296936035
+Predicted: [75, 44]Actual: 84False 5.417675971984863
+Predicted: [85]   Actual: 85True  51.11620330810547
+Predicted: [64, 33]Actual: 86False 5.749163627624512
+Predicted: [54, 33]Actual: 87False 6.02414083480835
+Predicted: [64, 75]Actual: 88False 6.3339667320251465
+Predicted: [54, 53]Actual: 89False 5.324676513671875
+Predicted: [54, 75]Actual: 90False 5.961986064910889
+Predicted: [33, 54]Actual: 91False 6.763946533203125
+Predicted: [64, 56]Actual: 92False 5.897091388702393
+Predicted: [54, 23]Actual: 93False 5.698877811431885
+Predicted: [54, 33]Actual: 94False 5.96614933013916
+Predicted: [35, 54]Actual: 95False 5.216306686401367
+Predicted: [64, 47]Actual: 96False 5.7683563232421875
+Predicted: [33, 54]Actual: 97False 5.71227502822876
+Predicted: [75, 54]Actual: 98False 5.498178005218506
+Predicted: [64, 47]Actual: 99False 6.8423614501953125
 ------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 11964  size: 48089  main correct/size: 0.2487887042774855
-Also correct: 9244  size: 48089  also correct/size: 0.192226912599555
-Test Error: Accuracy: 44.1%, Avg loss: 2.157240
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.146904468536377
-Predicted: [7, 11]Actual: 1 False 3.2855732440948486
-Predicted: [7, 11]Actual: 2 False 3.1594560146331787
-Predicted: [7, 11]Actual: 3 False 3.1506805419921875
-Predicted: [7, 11]Actual: 4 False 3.304593324661255
-Predicted: [7, 11]Actual: 5 False 3.220571517944336
-Predicted: [7, 11]Actual: 6 False 3.2229244709014893
-Predicted: [7, 11]Actual: 7 True  3.5023272037506104
-Predicted: [7, 11]Actual: 8 False 3.2476704120635986
-Predicted: [7, 11]Actual: 9 False 3.211947441101074
-Predicted: [7, 11]Actual: 10False 3.116945743560791
-Predicted: [7, 11]Actual: 11True  3.331406593322754
-Predicted: [7, 11]Actual: 12False 3.3000986576080322
-Predicted: [7, 11]Actual: 13False 3.126755714416504
-Predicted: [7, 11]Actual: 14False 3.077293872833252
-Predicted: [7, 11]Actual: 15False 3.0597832202911377
-Predicted: [7, 11]Actual: 16False 3.2599165439605713
-Predicted: [7, 11]Actual: 17False 3.3817410469055176
-Predicted: [7, 11]Actual: 18False 3.274904727935791
-Predicted: [7, 11]Actual: 19False 2.9765613079071045
-Predicted: [7, 11]Actual: 20False 3.331186532974243
-Predicted: [7, 11]Actual: 21False 3.408661127090454
-Predicted: [7, 11]Actual: 22False 3.196153163909912
-Predicted: [7, 11]Actual: 23False 3.0976123809814453
-Predicted: [7, 11]Actual: 24False 3.1951630115509033
-------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 12047  size: 48089  main correct/size: 0.25051467071471645
-Also correct: 9140  size: 48089  also correct/size: 0.19006425585892825
-Test Error: Accuracy: 44.1%, Avg loss: 2.145224
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.2219364643096924
-Predicted: [7, 11]Actual: 1 False 3.3590550422668457
-Predicted: [7, 11]Actual: 2 False 3.2204861640930176
-Predicted: [7, 11]Actual: 3 False 3.2227859497070312
-Predicted: [7, 11]Actual: 4 False 3.396531105041504
-Predicted: [7, 11]Actual: 5 False 3.2816226482391357
-Predicted: [7, 11]Actual: 6 False 3.298442840576172
-Predicted: [7, 11]Actual: 7 True  3.703793525695801
-Predicted: [7, 11]Actual: 8 False 3.3093676567077637
-Predicted: [7, 11]Actual: 9 False 3.2991769313812256
-Predicted: [7, 11]Actual: 10False 3.2122926712036133
-Predicted: [7, 11]Actual: 11True  3.4383649826049805
-Predicted: [7, 11]Actual: 12False 3.3703062534332275
-Predicted: [7, 11]Actual: 13False 3.1873509883880615
-Predicted: [7, 11]Actual: 14False 3.1278655529022217
-Predicted: [7, 11]Actual: 15False 3.121551275253296
-Predicted: [7, 11]Actual: 16False 3.3322160243988037
-Predicted: [7, 11]Actual: 17False 3.4764034748077393
-Predicted: [7, 11]Actual: 18False 3.3379452228546143
-Predicted: [7, 11]Actual: 19False 3.035961627960205
-Predicted: [7, 11]Actual: 20False 3.4170587062835693
-Predicted: [7, 11]Actual: 21False 3.4937119483947754
-Predicted: [7, 11]Actual: 22False 3.262266159057617
-Predicted: [7, 11]Actual: 23False 3.1559324264526367
-Predicted: [7, 11]Actual: 24False 3.2549874782562256
-------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 9215  size: 36089  main correct/size: 0.25534096262018896
-Also correct: 7721  size: 36089  also correct/size: 0.21394330682479426
-Test Error: Accuracy: 46.9%, Avg loss: 2.016793
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.5018527507781982
-Predicted: [7, 11]Actual: 1 False 3.652177095413208
-Predicted: [7, 11]Actual: 2 False 3.4916670322418213
-Predicted: [7, 11]Actual: 3 False 3.5014355182647705
-Predicted: [7, 11]Actual: 4 False 3.6995177268981934
-Predicted: [7, 11]Actual: 5 False 3.557339906692505
-Predicted: [7, 11]Actual: 6 False 3.5797390937805176
-Predicted: [7, 11]Actual: 7 True  4.110544204711914
-Predicted: [7, 11]Actual: 8 False 3.588045835494995
-Predicted: [7, 11]Actual: 9 False 3.5925981998443604
-Predicted: [7, 11]Actual: 10False 3.502161741256714
-Predicted: [7, 11]Actual: 11True  3.759572744369507
-Predicted: [7, 11]Actual: 12False 3.6597158908843994
-Predicted: [7, 11]Actual: 13False 3.45310378074646
-Predicted: [7, 11]Actual: 14False 3.3871943950653076
-Predicted: [7, 11]Actual: 15False 3.385690927505493
-Predicted: [7, 11]Actual: 16False 3.618263006210327
-Predicted: [7, 11]Actual: 17False 3.7936837673187256
-Predicted: [7, 11]Actual: 18False 3.6213552951812744
-Predicted: [7, 11]Actual: 19False 3.290815591812134
-Predicted: [7, 11]Actual: 20False 3.7205615043640137
-Predicted: [7, 11]Actual: 21False 3.8011014461517334
-Predicted: [7, 11]Actual: 22False 3.53863263130188
-Predicted: [7, 11]Actual: 23False 3.4174840450286865
-Predicted: [7, 11]Actual: 24False 3.527414321899414
-------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 9161  size: 36089  main correct/size: 0.2538446618083072
-Also correct: 7545  size: 36089  also correct/size: 0.20906647454903157
-Test Error: Accuracy: 46.3%, Avg loss: 2.016470
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.556795597076416
-Predicted: [7, 11]Actual: 1 False 3.7008168697357178
-Predicted: [7, 11]Actual: 2 False 3.532095432281494
-Predicted: [7, 11]Actual: 3 False 3.550295829772949
-Predicted: [7, 11]Actual: 4 False 3.768373966217041
-Predicted: [7, 11]Actual: 5 False 3.5924808979034424
-Predicted: [7, 11]Actual: 6 False 3.6241960525512695
-Predicted: [7, 11]Actual: 7 True  4.2892560958862305
-Predicted: [7, 11]Actual: 8 False 3.623967170715332
-Predicted: [7, 11]Actual: 9 False 3.6579058170318604
-Predicted: [7, 11]Actual: 10False 3.5736842155456543
-Predicted: [11, 7]Actual: 11True  3.903172731399536
-Predicted: [7, 11]Actual: 12False 3.686591386795044
-Predicted: [7, 11]Actual: 13False 3.4841580390930176
-Predicted: [7, 11]Actual: 14False 3.4142301082611084
-Predicted: [7, 11]Actual: 15False 3.4227163791656494
-Predicted: [7, 11]Actual: 16False 3.663961172103882
-Predicted: [7, 11]Actual: 17False 3.8620729446411133
-Predicted: [7, 11]Actual: 18False 3.6570889949798584
-Predicted: [7, 11]Actual: 19False 3.326334238052368
-Predicted: [7, 11]Actual: 20False 3.781494379043579
-Predicted: [7, 11]Actual: 21False 3.858645439147949
-Predicted: [7, 11]Actual: 22False 3.5788538455963135
-Predicted: [7, 11]Actual: 23False 3.4518415927886963
-Predicted: [7, 11]Actual: 24False 3.5575602054595947
-------------------------------------------
-Edge correct: 2   Size: 25  Edge correct/Size: 0.08
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 9262  size: 36089  main correct/size: 0.25664329851201195
-Also correct: 7390  size: 36089  also correct/size: 0.20477153703344508
-Test Error: Accuracy: 46.1%, Avg loss: 2.007298
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.599142551422119
-Predicted: [7, 11]Actual: 1 False 3.732712745666504
-Predicted: [7, 11]Actual: 2 False 3.555464267730713
-Predicted: [7, 11]Actual: 3 False 3.5832173824310303
-Predicted: [7, 11]Actual: 4 False 3.827300786972046
-Predicted: [7, 11]Actual: 5 False 3.60642671585083
-Predicted: [7, 11]Actual: 6 False 3.6499717235565186
-Predicted: [7, 11]Actual: 7 True  4.4908833503723145
-Predicted: [7, 11]Actual: 8 False 3.641390800476074
-Predicted: [7, 11]Actual: 9 False 3.712630033493042
-Predicted: [7, 11]Actual: 10False 3.639166831970215
-Predicted: [11, 7]Actual: 11True  4.035112380981445
-Predicted: [12, 7]Actual: 12True  3.6771152019500732
-Predicted: [7, 11]Actual: 13False 3.4922845363616943
-Predicted: [7, 11]Actual: 14False 3.418210983276367
-Predicted: [7, 11]Actual: 15False 3.4400827884674072
-Predicted: [7, 11]Actual: 16False 3.69232439994812
-Predicted: [7, 11]Actual: 17False 3.91577410697937
-Predicted: [7, 11]Actual: 18False 3.6716461181640625
-Predicted: [7, 11]Actual: 19False 3.343543529510498
-Predicted: [7, 11]Actual: 20False 3.8300960063934326
-Predicted: [7, 11]Actual: 21False 3.9015920162200928
-Predicted: [7, 11]Actual: 22False 3.6016061305999756
-Predicted: [7, 11]Actual: 23False 3.46748423576355
-Predicted: [11, 7]Actual: 24False 3.606680154800415
-------------------------------------------
-Edge correct: 3   Size: 25  Edge correct/Size: 0.12
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 10990  size: 36089  main correct/size: 0.30452492449222757
-Also correct: 5920  size: 36089  also correct/size: 0.16403890382110892
-Test Error: Accuracy: 46.9%, Avg loss: 1.976356
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.5926947593688965
-Predicted: [7, 11]Actual: 1 False 3.707670211791992
-Predicted: [7, 11]Actual: 2 False 3.522799491882324
-Predicted: [7, 11]Actual: 3 False 3.5627522468566895
-Predicted: [7, 11]Actual: 4 False 3.8382837772369385
-Predicted: [7, 11]Actual: 5 False 3.5582079887390137
-Predicted: [7, 11]Actual: 6 False 3.618471384048462
-Predicted: [7]    Actual: 7 True  4.6972527503967285
-Predicted: [7, 11]Actual: 8 False 3.5990684032440186
-Predicted: [7, 11]Actual: 9 False 3.71991229057312
-Predicted: [7, 11]Actual: 10False 3.6667535305023193
-Predicted: [11, 7]Actual: 11True  4.186410903930664
-Predicted: [12, 11]Actual: 12True  3.7706127166748047
-Predicted: [11, 7]Actual: 13False 3.465022087097168
-Predicted: [7, 11]Actual: 14False 3.3620147705078125
-Predicted: [7, 11]Actual: 15False 3.3998305797576904
-Predicted: [7, 11]Actual: 16False 3.6631040573120117
-Predicted: [7, 11]Actual: 17False 3.914233684539795
-Predicted: [7, 11]Actual: 18False 3.622913360595703
-Predicted: [7, 11]Actual: 19False 3.3050801753997803
-Predicted: [7, 11]Actual: 20False 3.8269593715667725
-Predicted: [7, 11]Actual: 21False 3.888103723526001
-Predicted: [7, 11]Actual: 22False 3.5660510063171387
-Predicted: [7, 11]Actual: 23False 3.4264845848083496
-Predicted: [11, 7]Actual: 24False 3.654794216156006
-------------------------------------------
-Edge correct: 3   Size: 25  Edge correct/Size: 0.12
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 12233  size: 36089  main correct/size: 0.3389675524398016
-Also correct: 4833  size: 36089  also correct/size: 0.13391892266341546
-Test Error: Accuracy: 47.3%, Avg loss: 1.962601
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.637066125869751
-Predicted: [7, 11]Actual: 1 False 3.7302844524383545
-Predicted: [7, 11]Actual: 2 False 3.5313539505004883
-Predicted: [7, 11]Actual: 3 False 3.585069417953491
-Predicted: [7, 11]Actual: 4 False 3.9086451530456543
-Predicted: [11, 7]Actual: 5 False 3.5817935466766357
-Predicted: [7, 11]Actual: 6 False 3.6245975494384766
-Predicted: [7]    Actual: 7 True  5.067417144775391
-Predicted: [7, 11]Actual: 8 False 3.598987579345703
-Predicted: [7, 11]Actual: 9 False 3.7845020294189453
-Predicted: [7, 11]Actual: 10False 3.7567014694213867
-Predicted: [11, 7]Actual: 11True  4.387902736663818
-Predicted: [12, 11]Actual: 12True  3.936631441116333
-Predicted: [11, 7]Actual: 13False 3.50730562210083
-Predicted: [11, 7]Actual: 14False 3.338456392288208
-Predicted: [7, 11]Actual: 15False 3.3953728675842285
-Predicted: [7, 11]Actual: 16False 3.6778650283813477
-Predicted: [7, 17]Actual: 17True  3.96601939201355
-Predicted: [7, 11]Actual: 18False 3.61210036277771
-Predicted: [7, 11]Actual: 19False 3.302239179611206
-Predicted: [7, 11]Actual: 20False 3.8819568157196045
-Predicted: [7, 11]Actual: 21False 3.928067445755005
-Predicted: [11, 7]Actual: 22False 3.5734407901763916
-Predicted: [7, 11]Actual: 23False 3.4218826293945312
-Predicted: [11, 7]Actual: 24False 3.715595245361328
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 13579  size: 36089  main correct/size: 0.3762642356396686
-Also correct: 4865  size: 36089  also correct/size: 0.13480561944082683
-Test Error: Accuracy: 51.1%, Avg loss: 1.922664
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.713571786880493
-Predicted: [7, 11]Actual: 1 False 3.7793521881103516
-Predicted: [7, 11]Actual: 2 False 3.55474853515625
-Predicted: [7, 12]Actual: 3 False 3.6287641525268555
-Predicted: [7, 11]Actual: 4 False 4.020269393920898
-Predicted: [11, 7]Actual: 5 False 3.641761541366577
-Predicted: [7, 11]Actual: 6 False 3.641380786895752
-Predicted: [7]    Actual: 7 True  5.647749900817871
-Predicted: [7, 11]Actual: 8 False 3.614992141723633
-Predicted: [7, 11]Actual: 9 False 3.888793468475342
-Predicted: [7, 11]Actual: 10False 3.897301197052002
-Predicted: [11]   Actual: 11True  4.689883708953857
-Predicted: [12, 11]Actual: 12True  4.207077980041504
-Predicted: [11, 7]Actual: 13False 3.5822219848632812
-Predicted: [11, 7]Actual: 14False 3.380418539047241
-Predicted: [7, 12]Actual: 15False 3.400689125061035
-Predicted: [7, 11]Actual: 16False 3.710038661956787
-Predicted: [7, 17]Actual: 17True  4.050243377685547
-Predicted: [7, 11]Actual: 18False 3.614452838897705
-Predicted: [7, 12]Actual: 19False 3.309699773788452
-Predicted: [7, 11]Actual: 20False 3.9779958724975586
-Predicted: [7, 11]Actual: 21False 3.9998464584350586
-Predicted: [11, 7]Actual: 22False 3.641106128692627
-Predicted: [11, 7]Actual: 23False 3.4651286602020264
-Predicted: [11, 12]Actual: 24False 3.8127880096435547
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 15162  size: 36089  main correct/size: 0.42012801684723877
-Also correct: 4894  size: 36089  also correct/size: 0.13560918839535593
-Test Error: Accuracy: 55.6%, Avg loss: 1.868507
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.728274345397949
-Predicted: [7, 11]Actual: 1 False 3.7554187774658203
-Predicted: [7, 11]Actual: 2 False 3.4949393272399902
-Predicted: [7, 12]Actual: 3 False 3.6033284664154053
-Predicted: [7, 11]Actual: 4 False 4.082595348358154
-Predicted: [11, 12]Actual: 5 False 3.688459873199463
-Predicted: [11, 7]Actual: 6 False 3.6667685508728027
-Predicted: [7]    Actual: 7 True  6.369238376617432
-Predicted: [11, 7]Actual: 8 False 3.6166508197784424
-Predicted: [7, 11]Actual: 9 False 3.9444711208343506
-Predicted: [7, 11]Actual: 10False 4.006275653839111
-Predicted: [11]   Actual: 11True  5.089616775512695
-Predicted: [12, 11]Actual: 12True  4.488199710845947
-Predicted: [11, 12]Actual: 13False 3.6540722846984863
-Predicted: [11, 12]Actual: 14False 3.4068398475646973
-Predicted: [12, 11]Actual: 15False 3.390488386154175
-Predicted: [7, 11]Actual: 16False 3.659771680831909
-Predicted: [7, 17]Actual: 17True  4.057424068450928
-Predicted: [12, 11]Actual: 18False 3.620572328567505
-Predicted: [12, 7]Actual: 19False 3.294461965560913
-Predicted: [7, 11]Actual: 20False 4.0157270431518555
-Predicted: [7, 11]Actual: 21False 4.004057884216309
-Predicted: [11, 7]Actual: 22False 3.701056480407715
-Predicted: [11, 7]Actual: 23False 3.50784969329834
-Predicted: [11, 12]Actual: 24False 3.9101386070251465
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 17558  size: 36089  main correct/size: 0.4865194380559173
-Also correct: 4541  size: 36089  also correct/size: 0.12582781456953643
-Test Error: Accuracy: 61.2%, Avg loss: 1.796760
-------------------------------------------
-Edge cases:
-Predicted: [7, 11]Actual: 0 False 3.6962666511535645
-Predicted: [11, 7]Actual: 1 False 3.745777130126953
-Predicted: [11, 12]Actual: 2 False 3.4132256507873535
-Predicted: [7, 12]Actual: 3 False 3.529984951019287
-Predicted: [7, 12]Actual: 4 False 4.112063884735107
-Predicted: [11, 12]Actual: 5 False 3.7319984436035156
-Predicted: [11, 7]Actual: 6 False 3.7205076217651367
-Predicted: [7]    Actual: 7 True  7.298036575317383
-Predicted: [11, 7]Actual: 8 False 3.6205291748046875
-Predicted: [7, 11]Actual: 9 False 3.968987464904785
-Predicted: [7]    Actual: 10False 4.099980354309082
-Predicted: [11]   Actual: 11True  5.6626152992248535
-Predicted: [12]   Actual: 12True  4.938230514526367
-Predicted: [11, 12]Actual: 13False 3.745177745819092
-Predicted: [12, 11]Actual: 14False 3.4311275482177734
-Predicted: [12, 11]Actual: 15False 3.4851937294006348
-Predicted: [11, 7]Actual: 16False 3.672119617462158
-Predicted: [7, 17]Actual: 17True  4.003437519073486
-Predicted: [12, 11]Actual: 18False 3.7046148777008057
-Predicted: [12, 11]Actual: 19False 3.3792214393615723
-Predicted: [7, 11]Actual: 20False 4.015895843505859
-Predicted: [7, 11]Actual: 21False 3.964474678039551
-Predicted: [11, 7]Actual: 22False 3.7713260650634766
-Predicted: [11, 12]Actual: 23False 3.5509114265441895
-Predicted: [11, 12]Actual: 24False 4.02094841003418
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 19208  size: 36089  main correct/size: 0.5322397406411926
-Also correct: 4403  size: 36089  also correct/size: 0.12200393471694976
-Test Error: Accuracy: 65.4%, Avg loss: 1.717638
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.656576156616211
-Predicted: [11, 7]Actual: 1 False 3.779904365539551
-Predicted: [12, 11]Actual: 2 False 3.471224546432495
-Predicted: [12, 7]Actual: 3 False 3.4958126544952393
-Predicted: [7, 17]Actual: 4 False 4.112030029296875
-Predicted: [11, 12]Actual: 5 False 3.7932896614074707
-Predicted: [11, 12]Actual: 6 False 3.802023410797119
-Predicted: [7]    Actual: 7 True  8.478833198547363
-Predicted: [11, 12]Actual: 8 False 3.6217384338378906
-Predicted: [7, 11]Actual: 9 False 3.966841220855713
-Predicted: [7]    Actual: 10False 4.18458366394043
-Predicted: [11]   Actual: 11True  6.5040106773376465
-Predicted: [12]   Actual: 12True  5.552396774291992
-Predicted: [11, 12]Actual: 13False 3.880380630493164
-Predicted: [12, 11]Actual: 14False 3.5468335151672363
-Predicted: [12, 11]Actual: 15False 3.594650983810425
-Predicted: [11, 12]Actual: 16False 3.706620693206787
-Predicted: [17, 12]Actual: 17True  4.1933722496032715
-Predicted: [12, 11]Actual: 18False 3.796617269515991
-Predicted: [12, 11]Actual: 19False 3.4776413440704346
-Predicted: [7, 11]Actual: 20False 3.991050958633423
-Predicted: [11, 7]Actual: 21False 3.8893651962280273
-Predicted: [11, 12]Actual: 22False 3.881021499633789
-Predicted: [11, 12]Actual: 23False 3.6184158325195312
-Predicted: [11, 12]Actual: 24False 4.168088912963867
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 19866  size: 36089  main correct/size: 0.5504724431267145
-Also correct: 4830  size: 36089  also correct/size: 0.13383579484053312
-Test Error: Accuracy: 68.4%, Avg loss: 1.627154
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.6876132488250732
-Predicted: [11, 7]Actual: 1 False 3.7775652408599854
-Predicted: [12, 11]Actual: 2 False 3.4689552783966064
-Predicted: [12, 17]Actual: 3 False 3.489522933959961
-Predicted: [7, 17]Actual: 4 False 4.109915256500244
-Predicted: [11, 12]Actual: 5 False 3.8143346309661865
-Predicted: [11, 12]Actual: 6 False 3.861499309539795
-Predicted: [7]    Actual: 7 True  9.790566444396973
-Predicted: [11, 12]Actual: 8 False 3.558617353439331
-Predicted: [7, 11]Actual: 9 False 3.971113920211792
-Predicted: [7]    Actual: 10False 4.281744956970215
-Predicted: [11]   Actual: 11True  7.5822978019714355
-Predicted: [12]   Actual: 12True  6.266904354095459
-Predicted: [11, 12]Actual: 13False 3.9930026531219482
-Predicted: [12, 11]Actual: 14False 3.582272529602051
-Predicted: [12, 11]Actual: 15False 3.639631748199463
-Predicted: [11, 12]Actual: 16False 3.702664613723755
-Predicted: [17, 12]Actual: 17True  4.47936487197876
-Predicted: [12, 11]Actual: 18False 3.803647994995117
-Predicted: [12, 17]Actual: 19False 3.504497528076172
-Predicted: [7, 17]Actual: 20False 3.9565446376800537
-Predicted: [11, 7]Actual: 21False 3.8778669834136963
-Predicted: [11]   Actual: 22False 3.9683496952056885
-Predicted: [11, 12]Actual: 23False 3.648691177368164
-Predicted: [11, 12]Actual: 24False 4.291800498962402
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 20926  size: 36089  main correct/size: 0.5798442738784672
-Also correct: 4376  size: 36089  also correct/size: 0.12125578431100889
-Test Error: Accuracy: 70.1%, Avg loss: 1.559752
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.706974983215332
-Predicted: [11, 17]Actual: 1 False 3.760068893432617
-Predicted: [12, 17]Actual: 2 False 3.515373706817627
-Predicted: [12, 17]Actual: 3 False 3.5270371437072754
-Predicted: [7, 17]Actual: 4 False 4.023290634155273
-Predicted: [11, 12]Actual: 5 False 3.8104968070983887
-Predicted: [11, 12]Actual: 6 False 3.90775203704834
-Predicted: [7]    Actual: 7 True  11.055034637451172
-Predicted: [11, 17]Actual: 8 False 3.456341505050659
-Predicted: [7, 17]Actual: 9 False 3.895200490951538
-Predicted: [7]    Actual: 10False 4.303494453430176
-Predicted: [11]   Actual: 11True  8.936853408813477
-Predicted: [12]   Actual: 12True  7.032068252563477
-Predicted: [11, 12]Actual: 13False 4.101828575134277
-Predicted: [12, 11]Actual: 14False 3.6298646926879883
-Predicted: [12, 17]Actual: 15False 3.7204041481018066
-Predicted: [11, 12]Actual: 16False 3.679816484451294
-Predicted: [17, 12]Actual: 17True  4.792053699493408
-Predicted: [12, 11]Actual: 18False 3.8574023246765137
-Predicted: [12, 17]Actual: 19False 3.574368476867676
-Predicted: [7, 17]Actual: 20False 3.8413069248199463
-Predicted: [11, 7]Actual: 21False 3.8539845943450928
-Predicted: [11]   Actual: 22False 4.046654224395752
-Predicted: [11, 12]Actual: 23False 3.6319613456726074
-Predicted: [11, 12]Actual: 24False 4.40569543838501
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 21506  size: 36089  main correct/size: 0.5959156529690487
-Also correct: 4262  size: 36089  also correct/size: 0.11809692704148078
-Test Error: Accuracy: 71.4%, Avg loss: 1.491464
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.681056022644043
-Predicted: [11, 17]Actual: 1 False 3.6955618858337402
-Predicted: [12, 17]Actual: 2 False 3.571903944015503
-Predicted: [17, 12]Actual: 3 False 3.589388132095337
-Predicted: [7, 17]Actual: 4 False 3.9403088092803955
-Predicted: [11, 12]Actual: 5 False 3.74129581451416
-Predicted: [11, 12]Actual: 6 False 3.8986639976501465
-Predicted: [7]    Actual: 7 True  12.214347839355469
-Predicted: [17, 12]Actual: 8 False 3.3777308464050293
-Predicted: [7, 17]Actual: 9 False 3.8049192428588867
-Predicted: [7]    Actual: 10False 4.326709270477295
-Predicted: [11]   Actual: 11True  10.478025436401367
-Predicted: [12]   Actual: 12True  7.839744567871094
-Predicted: [11, 12]Actual: 13False 4.157036304473877
-Predicted: [12, 17]Actual: 14False 3.6574490070343018
-Predicted: [12, 17]Actual: 15False 3.809405565261841
-Predicted: [11, 12]Actual: 16False 3.5985593795776367
-Predicted: [17, 12]Actual: 17True  5.121552467346191
-Predicted: [12, 17]Actual: 18False 3.9069221019744873
-Predicted: [12, 17]Actual: 19False 3.651350736618042
-Predicted: [7, 17]Actual: 20False 3.7370975017547607
-Predicted: [11, 17]Actual: 21False 3.7725188732147217
-Predicted: [11]   Actual: 22False 4.084856986999512
-Predicted: [11, 12]Actual: 23False 3.5384397506713867
-Predicted: [11, 12]Actual: 24False 4.462034702301025
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 21808  size: 36089  main correct/size: 0.6042838538058688
-Also correct: 4428  size: 36089  also correct/size: 0.12269666657430242
-Test Error: Accuracy: 72.7%, Avg loss: 1.427282
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.649561643600464
-Predicted: [11, 17]Actual: 1 False 3.6271746158599854
-Predicted: [12, 17]Actual: 2 False 3.571589231491089
-Predicted: [17, 12]Actual: 3 False 3.672229290008545
-Predicted: [7, 17]Actual: 4 False 3.89521861076355
-Predicted: [11, 12]Actual: 5 False 3.654250383377075
-Predicted: [11, 12]Actual: 6 False 3.8480405807495117
-Predicted: [7]    Actual: 7 True  13.189483642578125
-Predicted: [17, 12]Actual: 8 False 3.4151649475097656
-Predicted: [7, 17]Actual: 9 False 3.7503480911254883
-Predicted: [7]    Actual: 10False 4.369971752166748
-Predicted: [11]   Actual: 11True  12.117229461669922
-Predicted: [12]   Actual: 12True  8.615994453430176
-Predicted: [11, 12]Actual: 13False 4.162005424499512
-Predicted: [12, 17]Actual: 14False 3.6109817028045654
-Predicted: [12, 17]Actual: 15False 3.843196153640747
-Predicted: [11, 17]Actual: 16False 3.508026361465454
-Predicted: [17, 12]Actual: 17True  5.489720821380615
-Predicted: [12, 17]Actual: 18False 3.885146379470825
-Predicted: [12, 17]Actual: 19False 3.66723895072937
-Predicted: [7, 17]Actual: 20False 3.668308734893799
-Predicted: [11, 17]Actual: 21False 3.683389902114868
-Predicted: [11]   Actual: 22False 4.09032678604126
-Predicted: [11, 17]Actual: 23False 3.4219164848327637
-Predicted: [11, 12]Actual: 24False 4.4994611740112305
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 22056  size: 36089  main correct/size: 0.6111557538308072
-Also correct: 4540  size: 36089  also correct/size: 0.12580010529524233
-Test Error: Accuracy: 73.7%, Avg loss: 1.384434
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.5797183513641357
-Predicted: [11, 17]Actual: 1 False 3.5224215984344482
-Predicted: [12, 17]Actual: 2 False 3.5603091716766357
-Predicted: [17, 12]Actual: 3 False 3.7459845542907715
-Predicted: [7, 17]Actual: 4 False 3.808365821838379
-Predicted: [12, 11]Actual: 5 False 3.5945851802825928
-Predicted: [11, 12]Actual: 6 False 3.7602832317352295
-Predicted: [7]    Actual: 7 True  14.005973815917969
-Predicted: [17, 12]Actual: 8 False 3.444446086883545
-Predicted: [7, 17]Actual: 9 False 3.665511131286621
-Predicted: [7]    Actual: 10False 4.378375053405762
-Predicted: [11]   Actual: 11True  13.696329116821289
-Predicted: [12]   Actual: 12True  9.395212173461914
-Predicted: [11, 12]Actual: 13False 4.1265363693237305
-Predicted: [12, 17]Actual: 14False 3.561819314956665
-Predicted: [12, 17]Actual: 15False 3.893007278442383
-Predicted: [11, 17]Actual: 16False 3.3774917125701904
-Predicted: [17, 12]Actual: 17True  5.864521026611328
-Predicted: [12, 17]Actual: 18False 3.8712856769561768
-Predicted: [12, 17]Actual: 19False 3.6944375038146973
-Predicted: [17, 7]Actual: 20False 3.664736747741699
-Predicted: [11, 17]Actual: 21False 3.5665037631988525
-Predicted: [11]   Actual: 22False 4.021439075469971
-Predicted: [11, 17]Actual: 23False 3.26041579246521
-Predicted: [11, 12]Actual: 24False 4.491110801696777
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
-
-Grid size: 5
-Correct Tolerance 2
-------------------------------------------
-Main correct: 22260  size: 36089  main correct/size: 0.6168084457868048
-Also correct: 4583  size: 36089  also correct/size: 0.12699160408988888
-Test Error: Accuracy: 74.4%, Avg loss: 1.339895
-------------------------------------------
-Edge cases:
-Predicted: [11, 7]Actual: 0 False 3.4832239151000977
-Predicted: [11, 17]Actual: 1 False 3.389000415802002
-Predicted: [12, 17]Actual: 2 False 3.493614435195923
-Predicted: [17, 12]Actual: 3 False 3.7967801094055176
-Predicted: [7, 17]Actual: 4 False 3.7908899784088135
-Predicted: [12, 11]Actual: 5 False 3.51711106300354
-Predicted: [11, 12]Actual: 6 False 3.6272082328796387
-Predicted: [7]    Actual: 7 True  14.704874992370605
-Predicted: [17, 12]Actual: 8 False 3.4646401405334473
-Predicted: [7, 17]Actual: 9 False 3.645573139190674
-Predicted: [7]    Actual: 10False 4.435893535614014
-Predicted: [11]   Actual: 11True  15.122130393981934
-Predicted: [12]   Actual: 12True  10.1133451461792
-Predicted: [11, 12]Actual: 13False 4.0331926345825195
-Predicted: [12, 17]Actual: 14False 3.4480156898498535
-Predicted: [12, 17]Actual: 15False 3.8908870220184326
-Predicted: [17, 11]Actual: 16False 3.30153751373291
-Predicted: [17, 12]Actual: 17True  6.236247539520264
-Predicted: [12, 17]Actual: 18False 3.8063533306121826
-Predicted: [12, 17]Actual: 19False 3.66524600982666
-Predicted: [17, 7]Actual: 20False 3.680713176727295
-Predicted: [11, 17]Actual: 21False 3.4492688179016113
-Predicted: [11]   Actual: 22False 3.9265685081481934
-Predicted: [17, 11]Actual: 23False 3.1296536922454834
-Predicted: [11]   Actual: 24False 4.442279815673828
-------------------------------------------
-Edge correct: 4   Size: 25  Edge correct/Size: 0.16
+Edge correct: 12  Size: 100 Edge correct/Size: 0.12
 
