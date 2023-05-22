@@ -1,0 +1,112 @@
+Grid size: 10
+Correct Tolerance 5
+Chunk Amount: 25222
+------------------------------------------
+Main correct: 7845  size: 10089  main correct/size: 0.7775795420755278
+Also correct: 1219  size: 10089  also correct/size: 0.1208246605213599
+Test Error: Accuracy: 89.8%, Avg loss: 0.956270
+------------------------------------------
+Edge cases:
+Predicted: [54, 34]Actual: 0 False 5.795344829559326
+Predicted: [64, 43]Actual: 1 False 6.681941986083984
+Predicted: [64, 54]Actual: 2 False 5.923645973205566
+Predicted: [75, 54]Actual: 3 False 5.739632606506348
+Predicted: [54, 75]Actual: 4 False 5.816201210021973
+Predicted: [54, 14]Actual: 5 False 5.106933116912842
+Predicted: [64, 75]Actual: 6 False 5.667848110198975
+Predicted: [64, 54]Actual: 7 False 5.661872386932373
+Predicted: [74, 75]Actual: 8 False 6.224496364593506
+Predicted: [23, 53]Actual: 9 False 6.213411808013916
+Predicted: [64, 23]Actual: 10False 5.824204444885254
+Predicted: [43, 54]Actual: 11False 5.027154922485352
+Predicted: [33, 54]Actual: 12False 6.002514362335205
+Predicted: [64, 74]Actual: 13False 7.956146717071533
+Predicted: [33, 74]Actual: 14False 10.287324905395508
+Predicted: [64, 47]Actual: 15False 5.984773635864258
+Predicted: [54, 75]Actual: 16False 5.6385087966918945
+Predicted: [75, 54]Actual: 17False 5.515868663787842
+Predicted: [64, 47]Actual: 18False 5.478660583496094
+Predicted: [24, 54]Actual: 19False 5.669293403625488
+Predicted: [33, 47]Actual: 20False 6.826558589935303
+Predicted: [64, 33]Actual: 21False 5.796838283538818
+Predicted: [64, 47]Actual: 22False 5.575791358947754
+Predicted: [23]   Actual: 23True  59.37314987182617
+Predicted: [24]   Actual: 24True  54.25748062133789
+Predicted: [24, 64]Actual: 25False 7.662668704986572
+Predicted: [64, 75]Actual: 26False 6.0427422523498535
+Predicted: [23, 64]Actual: 27False 6.312526226043701
+Predicted: [64, 23]Actual: 28False 6.867179870605469
+Predicted: [64, 56]Actual: 29False 6.039118766784668
+Predicted: [34, 54]Actual: 30False 5.735576152801514
+Predicted: [33, 64]Actual: 31False 6.266123294830322
+Predicted: [54, 75]Actual: 32False 5.627806186676025
+Predicted: [33]   Actual: 33True  24.139652252197266
+Predicted: [34]   Actual: 34True  107.63314056396484
+Predicted: [35]   Actual: 35True  85.98160552978516
+Predicted: [24]   Actual: 36False 8.04123592376709
+Predicted: [64, 75]Actual: 37False 5.972379684448242
+Predicted: [54, 64]Actual: 38False 5.43184232711792
+Predicted: [54, 75]Actual: 39False 5.572385787963867
+Predicted: [74, 64]Actual: 40False 6.722227573394775
+Predicted: [64, 54]Actual: 41False 6.265892505645752
+Predicted: [64, 47]Actual: 42False 6.372439384460449
+Predicted: [43]   Actual: 43True  114.17485809326172
+Predicted: [44]   Actual: 44True  88.80705261230469
+Predicted: [33, 54]Actual: 45False 6.63677978515625
+Predicted: [64, 75]Actual: 46False 5.420681476593018
+Predicted: [33, 47]Actual: 47True  11.140582084655762
+Predicted: [64, 47]Actual: 48False 5.729148864746094
+Predicted: [33, 54]Actual: 49False 6.062882900238037
+Predicted: [64, 75]Actual: 50False 6.271666049957275
+Predicted: [43]   Actual: 51False 8.00102710723877
+Predicted: [64, 75]Actual: 52False 5.663486480712891
+Predicted: [53]   Actual: 53True  118.2690200805664
+Predicted: [33]   Actual: 54False 13.536116600036621
+Predicted: [64, 47]Actual: 55False 7.868720531463623
+Predicted: [33, 23]Actual: 56False 11.215547561645508
+Predicted: [64, 75]Actual: 57False 6.000749111175537
+Predicted: [64, 54]Actual: 58False 5.888368129730225
+Predicted: [33, 54]Actual: 59False 5.711544036865234
+Predicted: [33, 54]Actual: 60False 6.303624153137207
+Predicted: [33, 54]Actual: 61False 6.247834205627441
+Predicted: [64, 43]Actual: 62False 6.1194233894348145
+Predicted: [33, 64]Actual: 63False 8.167863845825195
+Predicted: [64]   Actual: 64True  15.939144134521484
+Predicted: [54, 56]Actual: 65False 5.495999336242676
+Predicted: [33, 54]Actual: 66False 6.090540409088135
+Predicted: [64, 54]Actual: 67False 5.509039878845215
+Predicted: [54, 34]Actual: 68False 5.98110294342041
+Predicted: [64, 75]Actual: 69False 5.271922588348389
+Predicted: [54, 75]Actual: 70False 5.7468342781066895
+Predicted: [64, 54]Actual: 71False 5.698589324951172
+Predicted: [74, 64]Actual: 72False 6.0564799308776855
+Predicted: [33, 54]Actual: 73False 6.116695404052734
+Predicted: [74]   Actual: 74True  47.00908660888672
+Predicted: [64, 33]Actual: 75False 10.182642936706543
+Predicted: [64, 75]Actual: 76False 6.005323886871338
+Predicted: [43, 64]Actual: 77False 7.002501487731934
+Predicted: [54, 64]Actual: 78False 5.677921772003174
+Predicted: [64, 34]Actual: 79False 6.2248735427856445
+Predicted: [33, 64]Actual: 80False 6.615050792694092
+Predicted: [35, 33]Actual: 81False 6.932398796081543
+Predicted: [75, 64]Actual: 82False 5.509908199310303
+Predicted: [64, 75]Actual: 83False 5.5553765296936035
+Predicted: [75, 44]Actual: 84False 5.417675971984863
+Predicted: [85]   Actual: 85True  51.11620330810547
+Predicted: [64, 33]Actual: 86False 5.749163627624512
+Predicted: [54, 33]Actual: 87False 6.02414083480835
+Predicted: [64, 75]Actual: 88False 6.3339667320251465
+Predicted: [54, 53]Actual: 89False 5.324676513671875
+Predicted: [54, 75]Actual: 90False 5.961986064910889
+Predicted: [33, 54]Actual: 91False 6.763946533203125
+Predicted: [64, 56]Actual: 92False 5.897091388702393
+Predicted: [54, 23]Actual: 93False 5.698877811431885
+Predicted: [54, 33]Actual: 94False 5.96614933013916
+Predicted: [35, 54]Actual: 95False 5.216306686401367
+Predicted: [64, 47]Actual: 96False 5.7683563232421875
+Predicted: [33, 54]Actual: 97False 5.71227502822876
+Predicted: [75, 54]Actual: 98False 5.498178005218506
+Predicted: [64, 47]Actual: 99False 6.8423614501953125
+------------------------------------------
+Edge correct: 12  Size: 100 Edge correct/Size: 0.12
+
